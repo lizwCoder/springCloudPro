@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/modules/configClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/configServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/eurekaServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/eurekaServerRepl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/feignClient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/feignServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/feignServerRepl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/modules/zuul" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

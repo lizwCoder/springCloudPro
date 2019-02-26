@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configClient" />
+        <module name="configServer" />
+        <module name="eureka-server-repl" />
+        <module name="eurekaServer" />
+        <module name="feign-client" />
+        <module name="feign-server" />
+        <module name="feignServer" />
+        <module name="feignServerRepl" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configClient" target="1.8" />
+      <module name="configServer" target="1.8" />
+      <module name="eureka-server-repl" target="1.8" />
+      <module name="eurekaServer" target="1.8" />
+      <module name="feign-client" target="1.8" />
+      <module name="feign-server" target="1.8" />
+      <module name="feignServer" target="1.8" />
+      <module name="feignServerRepl" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="configClient" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="eureka-server-repl" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
+      <module name="feign-client" options="-parameters" />
+      <module name="feign-server" options="-parameters" />
+      <module name="feignServer" options="-parameters" />
+      <module name="feignServerRepl" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+
+server:
+  port: 6868
+
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://admin@localhost:8662/r/springCloudConfig.git
+          username: admin
+          password: admin
+          basedir: target/config
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: HelloClient
+
+server:
+  port: 7211
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+logging:
+  level:
+    teligen.*: debug
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+#        loggerLevel: HEADERS
+        loggerLevel: FULL
+  compression:
+    request:
+      enabled: true
+    response:
+      enabled: true

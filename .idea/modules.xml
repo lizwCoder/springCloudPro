@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modules/configClient/configClient.iml" filepath="$PROJECT_DIR$/modules/configClient/configClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/configServer/configServer.iml" filepath="$PROJECT_DIR$/modules/configServer/configServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/eurekaServerRepl/eureka-server-repl.iml" filepath="$PROJECT_DIR$/modules/eurekaServerRepl/eureka-server-repl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/modules/eurekaServer/eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/feignClient/feign-client.iml" filepath="$PROJECT_DIR$/modules/feignClient/feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/feignServer/feign-server.iml" filepath="$PROJECT_DIR$/modules/feignServer/feign-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/feignServerRepl/feignServerRepl.iml" filepath="$PROJECT_DIR$/modules/feignServerRepl/feignServerRepl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/zuul/zuul.iml" filepath="$PROJECT_DIR$/modules/zuul/zuul.iml" />
+    </modules>
+  </component>
+</project>
