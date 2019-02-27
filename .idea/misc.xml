@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/modules/feignServer/pom.xml" />
         <option value="$PROJECT_DIR$/modules/feignServerRepl/pom.xml" />
         <option value="$PROJECT_DIR$/modules/zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/modules/gateway/pom.xml" />
       </list>
     </option>
   </component>

@@ -14,6 +14,7 @@
         <module name="feign-server" />
         <module name="feignServer" />
         <module name="feignServerRepl" />
+        <module name="gateway" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="feign-server" target="1.8" />
       <module name="feignServer" target="1.8" />
       <module name="feignServerRepl" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -39,6 +41,7 @@
       <module name="feign-server" options="-parameters" />
       <module name="feignServer" options="-parameters" />
       <module name="feignServerRepl" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

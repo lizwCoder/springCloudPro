@@ -4,4 +4,7 @@ spring:
       name: config-client
       profile: dev
       label: master
-      uri: http://localhost:6868/
+#      uri: http://localhost:6868/
+      discovery:
+        enabled: true
+        serviceId: configServer

@@ -11,9 +11,9 @@ eureka:
 #  server:
 #    waitTimeInMsWhenSyncEmpty: 0
   instance:
-    appname: eurekaServer
+    appname: eurekaServerApp
     hostname: peer1
-    preferIpAddress: true
+#    preferIpAddress: true
 
 spring:
   application:

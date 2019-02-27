@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          enabled: false
+          lower-case-service-id: true
+      routes:
+        - id: helloserver
+          uri: lb://HELLOSERVER
+          predicates:
+            - Path=/hello-server/**
+          filters:
+            - StripPrefix=1
+#  在上面的配置中，配置了一个Path 的predict,
+#  将以/hello-server/**开头的请求都会转发到uri为lb://HELLOSERVER的地址上，
+#  lb://HELLOSERVER即HELLOSERVER服务的负载均衡地址，
+#  并用StripPrefix的filter 在转发之前将/helloserver去掉。
+#  同时将spring.cloud.gateway.discovery.locator.enabled改为false，
+#  如果不改的话，之前的localhost:8081/helloserver/这样的请求地址也能正常访问，因为这时为每个服务创建了2个router
+#  ---------------------
+#  原文：https://blog.csdn.net/forezp/article/details/85210153
+
+server:
+  port: 8999
+
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

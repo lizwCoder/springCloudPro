@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/modules/feignClient/feign-client.iml" filepath="$PROJECT_DIR$/modules/feignClient/feign-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/feignServer/feign-server.iml" filepath="$PROJECT_DIR$/modules/feignServer/feign-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/feignServerRepl/feignServerRepl.iml" filepath="$PROJECT_DIR$/modules/feignServerRepl/feignServerRepl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/gateway/gateway.iml" filepath="$PROJECT_DIR$/modules/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/modules/zuul/zuul.iml" filepath="$PROJECT_DIR$/modules/zuul/zuul.iml" />
     </modules>
   </component>

@@ -28,3 +28,5 @@ feign:
       enabled: true
     response:
       enabled: true
+  hystrix:
+    enabled: true

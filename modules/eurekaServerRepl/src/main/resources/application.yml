@@ -10,9 +10,9 @@ eureka:
 #  server:
 #    waitTimeInMsWhenSyncEmpty: 0
   instance:
-    appname: eurekaServerRepl
+    appname: eurekaServerApp
     hostname: peer2
 
 spring:
   application:
-    name: eurekaServerRepl
+    name: eurekaServer
